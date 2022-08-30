@@ -5,7 +5,14 @@
 // -3 -> 9 
 // -7 -> 49c
 
-Console.WriteLine("Введите число");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число1");
+int number1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(number * number);
+Console.WriteLine("Введите число2");
+int number2 = Convert.ToInt32(Console.ReadLine());
+ 
+ if (number1 == (number2 * number2))
+    Console.WriteLine("Yes");
+    else
+    Console.WriteLine("No");
+
